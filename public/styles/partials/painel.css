@@ -1,0 +1,165 @@
+
+.primebar{
+  padding: 20px 20px 20px 10px;
+}
+
+.bm{
+ text-align: center;
+ font-size: 23px;
+ color: #770014; 
+ }
+
+ ul, .navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #02213f;
+  position: relative;
+  font-size: 14px;
+}
+
+li, .navbar-left{
+  float: left;
+  position: relative;
+}
+
+li, navbar-right{
+  float: right;
+  position: relative;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.home){
+  background-color: #0a3a69;
+}
+
+.home {
+  background-color: #db3b3b;
+}
+
+
+.intro{
+ 
+ font-size: 20px;
+ font-family: Century Gothic;
+ line-height: 130%;
+ text-align: center;
+ color: #02213f;
+ border-top: 3px solid;
+ position: relative;
+ padding-top: 20px;
+}
+
+
+input[type=text], input[type=password] {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ box-sizing: border-box;
+}
+
+#button {
+ background-color: #0489aa;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+}
+#button:hover {
+ opacity: 0.8;
+}
+
+button {
+ background-color: #0489aa;
+ color: white;
+ padding: 14px 20px;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+}
+
+
+button:hover {
+ opacity: 0.8;
+}
+
+.img-container {
+ text-align: center;
+ margin: 24px 0 12px 0;
+}
+
+img.avatar {
+ width: 40px;
+ border-radius: 50%;
+}
+
+.container {
+ padding: 16px;
+}
+
+span.password {
+ float: right;
+ padding-top: 15px;
+}
+
+.Login {
+ 
+ margin-left: 30%;
+ margin-right: 30%;
+ border-radius: 7px;
+ border: 1px solid #0489aa;
+ box-sizing: border-box;
+}
+
+.register{
+ margin-left: 3%;
+ margin-right: 3%;
+ box-sizing: border-box;
+}
+
+@media only screen and (max-width: 400px){
+ 
+ .Login{    
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;  
+}
+
+.register{
+ margin-left: 5%;
+ margin-right: 5%;
+ box-sizing: border-box;
+}
+
+ul, .navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #02213f;
+  position: relative;
+  font-size: 10px;
+  float: left;
+}
+.home{
+  font-size: 0px;
+  background-color: #02213f;
+}
+.navbar-right{
+  margin: 0px 30px
+}
+}
