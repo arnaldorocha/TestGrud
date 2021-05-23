@@ -1,0 +1,144 @@
+
+.primebar{
+  padding: 20px 20px 20px 10px;
+}
+
+.bm{
+ text-align: center;
+ font-size: 23px;
+ color: #770014; 
+ }
+ 
+.perfil{
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 7px;
+  border: 1px solid #0489aa;
+  box-sizing: border-box;  
+}
+
+ ul, .navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #02213f;
+  position: relative;
+  font-size: 12px;
+  font-family: Century Gothic;
+}
+
+li, .navbar-left{
+  float: left;
+  position: relative;
+}
+
+li, .navbar-right{
+  float: right;
+  position: relative;
+}
+
+.navbar-right{
+  background-color: #0489aa;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+li a:hover:not(.home){
+  background-color: #0a3a69;
+}
+
+.home {
+  background-color: #db3b3b;
+}
+
+button {
+  background-color: #0489aa;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  margin-left: 345px;
+  margin-bottom: 20px;
+ }
+ 
+ button:hover {
+  opacity: 0.8;
+ } 
+
+input[type=datetime-local]{
+  width: 220px;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin-left: 380px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=text]{
+  width: 220px;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin-left: 380px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+#agendando{
+  margin-left: 390px;
+}
+
+#entrevistador{
+  margin-left: 400px;
+}
+
+  #empresa{
+    margin-left: 455px;
+  }
+
+.container{
+  font-family: Century Gothic;
+  color: #0489aa;
+}
+input:focus{ 
+  outline: none;
+  border-color: #719ECE;
+  box-shadow: 0 1px  #238af8;
+}
+
+@media only screen and (max-width: 420px){ 
+
+ul, .navbar{  
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #02213f;
+  position: relative;
+  font-size: 8px;
+  float: left;
+}
+
+.navbar-right{
+  margin-top: 10px;
+  margin-left: 50%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+}

@@ -1,0 +1,145 @@
+
+.primebar{
+  padding: 20px 20px 20px 10px;
+}
+.bm{
+ text-align: center;
+ font-size: 23px;
+ color: #770014; 
+ }
+
+.navbar img{
+ width: 50px;
+ height: 50px;
+ position: relative;          
+}
+
+
+.intro{
+ 
+ font-size: 20px;
+ font-family: Century Gothic;
+ line-height: 130%;
+ text-align: center;
+ color: #02213f;
+ border-top: 3px solid;
+ position: relative;
+ padding-top: 20px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 20px;
+}
+
+input:focus { 
+  outline: none;
+  border-color: #719ECE;
+  box-shadow: 0 1px  #238af8;
+}
+
+button{
+  background-color: #0489aa;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer; 
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.buttonfront{
+  margin-top: 1px;
+  position: relative;
+  float: right;
+}
+
+.buttonback{
+  margin-top: 1px;
+  position: relative;
+  float: left; 
+}
+
+.buttonlocal{  
+  margin-left: 30%;
+  margin-right: 30%;
+  border: none;
+}
+
+.option{
+ 
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 7px;
+  border: 1px solid #0489aa;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 20px;
+
+}
+.option1{
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 7px;
+  border: 1px solid #0489aa;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 20px;
+}
+.option2{
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 7px;
+  border: 1px solid #0489aa;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 20px;
+}
+.option3{
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 7px;
+  border: 1px solid #0489aa;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 20px;
+}
+#point{
+  color: red;
+}
+
+@media only screen and (max-width: 420px){
+  .option{
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+  }
+  .option1{
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+  }
+  .option2{
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+  }
+  .option3{
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+  }
+
+}

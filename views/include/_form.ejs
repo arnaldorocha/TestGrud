@@ -1,0 +1,122 @@
+<head> 
+  
+  <link rel="stylesheet" href="css/pageTwo.css">  
+  
+</head>
+
+  <div class="container">
+
+<form action="" novalidate="novalidate" method="post">
+
+  <div class="option">
+  <label for="name">Name/ Nome <a id="point">*</a></label><br>
+  <input type="text" name="name" required><br>
+  </div>
+
+  <div class="option">
+
+    <script language="javascript">
+
+      function habilitacao(){
+        if(document.getElementById('radio4').checked == true){
+          document.getElementById('genders').disabled = false;
+        }
+        if(document.getElementById('radio4').checked == false){
+          document.getElementById('genders').disabled = true;
+        }
+      }
+   
+    </script>
+
+  <label>
+<input type="radio" onClick="habilitacao()" name="optionsRadiosInline" 
+id="optionsRadiosInline1" 
+value="option1" >Male
+  </label>
+
+  <label>
+<input type="radio" onClick="habilitacao()" name="optionsRadiosInline"
+id="optionsRadiosInline2" 
+value="option2">Female
+  </label>
+ 
+  <label for="radio4">
+<input type="radio" name="optionsRadiosInline" id="radio4" 
+onClick="habilitacao()" value="option4" >Outhers 
+  </label>
+  
+ <input type="text" class="form-control" id="genders" disabled>
+
+  </div>    
+   
+  <div class="option">
+  <label for="phone">Phone/ Telefone <a id="point">*</a></label><br>            
+  <input type="tel" name="tel" required><br> 
+  </div>
+
+  <div class="option">
+  <label for="Linkedin">Linkedin <a id="point">*</a></label><br>            
+  <input type="text" name="linkedin" required><br> 
+  </div>
+  
+  <div class="option">
+  <label for="city">City/ Cidade <a id="point">*</a></label><br>            
+  <input type="text" name="city" required><br>  
+  </div>
+
+  <div class="option">
+  <label for="state">State/ Estado <a id="point">*</a></label><br>            
+  <input type="text" name="state" required><br> 
+  </div>
+  
+  <div class="option">
+  <label for="portfolio">Portfolio <a id="point">*</a></label><br>            
+  <input type="text" name="portfolio" required><br>
+  </div>
+
+  <div class="option">
+    <label for="willingness">What is your willingness to work today? <br> Qual é sua disponibilidade para trabalhar hoje? <a id="point">*</a></label><br><br>            
+    <input type="checkbox" name="willingness" required> Up to 4 hours per day / Até 4 horas por dia<br><br>
+    <input type="checkbox" name="willingness" required> 4 to 6 hours per day / De 4 á 6 horas por dia<br><br>
+    <input type="checkbox" name="willingness" required> 6 to 8 hours per day /De 6 á 8 horas por dia<br><br>
+    <input type="checkbox" name="willingness" required> Up to 8 hours a day (are you sure?) / Acima de 8 horas por dia (tem certeza?)<br><br>
+    <input type="checkbox" name="willingness" required> Only weekends / Apenas finais de semana<br><br>
+  </div>  
+
+  <div class="option">
+    <label for="timeWork">What's the best time to work for you? <br> Pra você qual é o melhor horário para trabalhar? <a id="point">*</a></label><br><br>            
+    <input type="checkbox" name="timeWork" required> Morning (from 08:00 to 12:00) / Manhã (de 08:00 ás 12:00)<br><br>
+    <input type="checkbox" name="timeWork" required> Afternoon (from 1:00 p.m. to 6:00 p.m.) / Tarde (de 13:00 ás 18:00)<br><br>
+    <input type="checkbox" name="timeWork" required> Night (7:00 p.m. to 10:00 p.m.) /Noite (de 19:00 as 22:00)<br><br>
+    <input type="checkbox" name="timeWork" required> Dawn (from 10 p.m. onwards) / Madrugada (de 22:00 em diante)<br><br>
+    <input type="checkbox" name="timeWork" required> Business (from 08:00 a.m. to 06:00 p.m.) / Comercial (de 08:00 as 18:00)<br><br>
+  </div> 
+  
+  <div class="option">
+    <label for="salary">What is your hourly salary requirements? <br> Qual sua pretensão salarial por hora? <a id="point">*</a></label><br><br>          
+    <input type="text" name="salary" required><br>
+  </div>
+
+</form>
+
+  <div class="buttonlocal">
+  
+    <span class="buttonfront">
+
+      <form action="/register_two"> 
+        <button>Seguir</button> 
+      </form>
+    
+    </span>
+    
+    <span class="buttonback">
+    
+      <form action="/"> 
+        <button>Voltar</button> 
+      </form>
+   
+    </span>
+  
+  </div>
+ 
+  </div>
