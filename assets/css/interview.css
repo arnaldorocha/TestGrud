@@ -11,8 +11,8 @@
  
 .perfil{
   margin-top: 30px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 25%;
+  margin-right: 25%;
   border-radius: 7px;
   border: 1px solid #0489aa;
   box-sizing: border-box;  
@@ -59,86 +59,107 @@ li a:hover:not(.home){
   background-color: #db3b3b;
 }
 
-button {
-  background-color: #0489aa;
-  color: white;
-  padding: 14px 20px;
-  border: none;
-  cursor: pointer;
-  width: 30%;
-  margin-left: 345px;
-  margin-bottom: 20px;
- }
- 
- button:hover {
-  opacity: 0.8;
- } 
 
-input[type=datetime-local]{
-  width: 220px;
-  padding: 12px 20px;
-  margin-top: 20px;
-  margin-left: 380px;
+ input[type=datetime-local], input[type=text] {
+  width: 70%;
+  padding: 15px 20px;
+  margin: 10px 15%;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  height: 20px;
 }
 
-input[type=text]{
-  width: 220px;
-  padding: 12px 20px;
-  margin-top: 20px;
-  margin-left: 380px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-
-#agendando{
-  margin-left: 390px;
-}
-
-#entrevistador{
-  margin-left: 400px;
-}
-
-  #empresa{
-    margin-left: 455px;
-  }
-
-.container{
-  font-family: Century Gothic;
-  color: #0489aa;
-}
-input:focus{ 
+input:focus { 
   outline: none;
   border-color: #719ECE;
   box-shadow: 0 1px  #238af8;
 }
 
+button{
+  background-color: #0489aa;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer; 
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.container{
+  font-family: Century Gothic;
+}
+
+
+
+.footer-dark {
+  margin-top: 80px;
+  color:#f0f9ff;
+  background-color: #02213f;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+  float:left;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+  
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:769px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
 @media only screen and (max-width: 420px){ 
 
-ul, .navbar{  
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #02213f;
-  position: relative;
-  font-size: 8px;
-  float: left;
-}
 
-.navbar-right{
-  margin-top: 10px;
-  margin-left: 50%;
-}
+  .perfil{
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 7px;
+    border: 1px solid #0489aa;
+    box-sizing: border-box;  
+  }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 4px 10px;
-  text-decoration: none;
-}
-}
+  input[type=datetime-local], input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    padding: 15px 20px;
+    margin: 10px 15%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+ 
+
+}  
